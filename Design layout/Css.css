@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+h4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	color: #808080;
+}
+
+n2 {
+	font-size: small;	
+}
+
+wt {
+	color: #808080;
+	font-size: 40px;
+	font-family: 'Exo', sans-serif;
+
+
+
+	
+}
+
+.logo-container {
+	margin: 0 auto;
+	background-image: url(images/test4.png);
+	height: 280px;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.nav-container {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.style-nav ul{
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+}
+
+.style-nav ul li{
+	list-style-type: none;
+	align-items: center;
+	display: inline-block;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #838383;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+	font-weight: 400;
+	font-family: 'Concert One', cursive;
+	margin-left: 15px;
+	font-size: x-large;
+	border-right-width: thin;
+	border-right-style: dashed;
+	border-left-width: thin;
+	border-left-style: dashed;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.style-nav .active {
+	color: #2B8071;
+}
+
+.divider {
+	margin: auto;
+	border-bottom: 1px ridge #808080;
+	width: 60%;
+	height: 5px;
+}
+
+.welkom-box {
+	height: 67px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.infog-box {
+	background-image: url(images/infoG.png);
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	background-position: center center;
+}
+
+.main {
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+	color: #808080;
+}
+
+.row{
+	width: 100%;
+	margin: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block;
+}
+
+.columns{
+	width: 25%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	border-width: 1px;
+	border-bottom-color: #B5B5B5;
+	border-bottom-style: solid;
+}
+
+.mailons a {
+	color: #808080;
+	text-decoration: none;
+}
+
+.footer {
+	color: #808080;
+	text-align: center;
+	position: fixed;
+	Width: 100%;
+	bottom: 0;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	visibility: visible;
+}
